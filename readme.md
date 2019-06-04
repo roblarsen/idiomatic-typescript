@@ -3,7 +3,7 @@
 
 ## This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
 
-Like TypeScript is based on JavaScript, this particular project is based on [Rick Waldron's Idiomatic.js](https://github.com/rwaldron/idiomatic.js) which has been influential in all of my JavaScript projects for the past few years. Expanding it for TypeScript is a natural for me. 
+Like TypeScript is based on JavaScript, this particular project is based on [Rick Waldron's Idiomatic.js](https://github.com/rwaldron/idiomatic.js) which has been influential in all of my JavaScript projects for the past few years. Expanding it for TypeScript to satisfy a need I have for work is a natural for me. 
 
 ## All code in any code-base should look like a single person typed it, no matter how many people contributed.
 
@@ -20,84 +20,6 @@ Like TypeScript is based on JavaScript, this particular project is based on [Ric
 > ### "Part of being a good steward to a successful project is realizing that writing code for yourself is a Bad Idea™. If thousands of people are using your code, then write your code for maximum clarity, not your personal preference of how to get clever within the spec."
 >_Idan_ _Gazit_
 
-
-## Translations
-
-* [German](https://github.com/rwldrn/idiomatic.js/tree/master/translations/de_DE)
-* [French](https://github.com/rwldrn/idiomatic.js/tree/master/translations/fr_FR)
-* [Spanish](https://github.com/rwldrn/idiomatic.js/tree/master/translations/es_ES)
-* [Portuguese - Brazil](https://github.com/rwldrn/idiomatic.js/tree/master/translations/pt_BR)
-* [Korean](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ko_KR)
-* [日本語](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ja_JP)
-* [Italian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/it_IT)
-* [Russian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ru_RU)
-* [Romanian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ro_RO)
-* [简体中文](https://github.com/rwldrn/idiomatic.js/tree/master/translations/zh_CN)
-* [Serbian - cyrilic alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ср_СР)
-* [Serbian - latin alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/sr_SR)
-* [繁體中文](https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_TW)  
-* [Indonesian](https://github.com/rwaldron/idiomatic.js/tree/master/translations/id_ID)  
-* [Greek](https://github.com/rwaldron/idiomatic.js/tree/master/translations/gr_GR)  
-
-## Important, Non-Idiomatic Stuff:
-
-### Code Quality Tools, Resources & References
-
- * [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
- * [Plato](https://github.com/es-analysis/plato)
- * [jsPerf](http://jsperf.com/)
- * [jsFiddle](http://jsfiddle.net/)
- * [Codepen](http://codepen.io/)
- * [jsbin](http://jsbin.com/)
- * [JavaScript Lint (JSL)](http://javascriptlint.com/)
- * [jshint](http://jshint.com/)
- * [jslint](http://jslint.org/)
- * [eslint](http://eslint.org/)
- * [jscs](https://www.npmjs.org/package/jscs)
- * [jscodesniffer](https://www.npmjs.org/package/jscodesniffer)
- * [Editorconfig](http://editorconfig.org/)
- * [Hound](https://houndci.com/)
-
-## Get Smart
-
-### [Annotated ECMAScript 5.1](http://es5.github.com/)
-### [EcmaScript Language Specification, 5.1 Edition](http://ecma-international.org/ecma-262/5.1/)
-
-The following should be considered 1) incomplete, and 2) *REQUIRED READING*. I don't always agree with the style written by the authors below, but one thing is certain: They are consistent. Furthermore, these are authorities on the language.
-
- * [Baseline For Front End Developers: 2015](http://rmurphey.com/blog/2015/03/23/a-baseline-for-front-end-developers-2015/)
- * [Eloquent JavaScript](http://eloquentjavascript.net/)
- * [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
- * [Adventures in JavaScript Development](http://rmurphey.com/)
- * [Perfection Kills](http://perfectionkills.com/)
- * [Douglas Crockford's Wrrrld Wide Web](http://www.crockford.com)
- * [JS Assessment](https://github.com/rmurphey/js-assessment)
-
-
-
-
-### Build & Deployment Process
-
-Projects should always attempt to include some generic means by which source can be linted, tested and compressed in preparation for production use. For this task, [grunt](https://github.com/gruntjs/grunt) by Ben Alman is second to none and has officially replaced the "kits/" directory of this repo.
-
-
-
-
-### Test Facility
-
-Projects _must_ include some form of unit, reference, implementation or functional testing. Use case demos DO NOT QUALIFY as "tests". The following is a list of test frameworks, none of which are endorsed more than the other.
-
- * [QUnit](http://github.com/jquery/qunit)
- * [Jasmine](https://github.com/pivotal/jasmine)
- * [Vows](https://github.com/cloudhead/vows)
- * [Mocha](https://github.com/visionmedia/mocha)
- * [Hiro](http://hirojs.com/)
- * [JsTestDriver](https://code.google.com/p/js-test-driver/)
- * [Buster.js](http://busterjs.org/)
- * [Sinon.js](http://sinonjs.org/)
- * [Tape](https://github.com/substack/tape)
- * [Jest](https://facebook.github.io/jest/)
-
 ## Table of Contents
 
  * [Whitespace](#whitespace)
@@ -110,7 +32,6 @@ Projects _must_ include some form of unit, reference, implementation or function
  * [Native & Host Objects](#native)
  * [Comments](#comments)
  * [One Language Code](#language)
-
 
 
 ------------------------------------------------
