@@ -3,7 +3,7 @@
 
 ## This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
 
-Like TypeScript is based on JavaScript, this particular project is based on [Rick Waldron's Idiomatic.js](https://github.com/rwaldron/idiomatic.js) which has been influential in all of my JavaScript projects for the past few years. Expanding it for TypeScript to satisfy a need I have for work is a natural for me. 
+Like TypeScript is based on JavaScript, this particular project is based on [Rick Waldron's Idiomatic.js](https://github.com/rwaldron/idiomatic.js) which has been influential in all of my JavaScript projects for the past few years. Expanding it for TypeScript to satisfy a need I have for work is a natural for me.
 
 ## All code in any code-base should look like a single person typed it, no matter how many people contributed.
 
